@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: white;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            /* Style the topnav links */
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                /* Change color on hover */
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 25%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 75%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+
+        /* Fake image */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <nav class="topnav" id="navbar">
+                    <header></header>
+
+                    <a href="#Subject-Research" class="nav-link">
+                        Subject-Research
+                    </a>
+                    <a href="#Define-Problem" class="nav-link"> Define Problem</a><br>
+
+                    <br>
+                    <a href="#Necessity-Of-Researh" class="nav-link">
+                        Necessity Of Researh
+                    </a>
+
+                    <a href="#Primary-Secondary-Question" class="nav-link">
+                        Primary and Secondary Question
+                    </a>
+
+                    <a href="#Research-History" class="nav-link">
+                        Research History
+                    </a>
+                </nav>
+            </div>
+
+        </div>
+        <div class="rightcolumn">
+            <div class="header">
+                <h2>How do we research about one article</h2>
+
+            </div>
+            <main id="main-doc">
+                <div class="card">
+                    <section class="main-section" id="Subject-Research">
+                        <header>Subject Research</header>
+                        <code>Subject Research is the first point of the research system.here is some traits of SubjectResearch</code>
+                        <ol>
+                            <li>be the gamut of prober</li>
+                            <li>be novel,not repetitive</li>
+                            <li>Research is possible</li>
+                            <li>subject should be retail</li>
+                            <li>subject shold be clear</li>
+                        </ol>
+
+                        <p>We can specify our subject from our personal motive and also from academic motive like participate for solving some problem in society.</p>
+                        <p>
+                            i think here is necessary to inform you bout research codify.this point is one of the most important point for
+                            our research,after the select of our subject we have to write this part.module research is like a specific frame for our research which
+                            lead our research from the first step up to end.
+                        </p>
+                    </section>
+                </div>
+
+                <div class="card">
+                    <section class="main-section" id="Define-Problem">
+                        <header>Define Problem</header>
+                        <code>After the module research it's first point for research.</code>
+
+                        <p>
+                            define problem wrought from many paragraph whcich researcher can say clear about the subject and should inform clearly
+                            about the manner of the subjectand also should say about the benefit of the research.
+                        </p>
+                    </section>
+                </div>
+                <div class="card">
+                    <section class="main-section" id="Necessity-Of-Researh">
+                        <header>Necessity Of Researh</header>
+                        <code>this part organize from two part .benefit and Necessity.</code>
+
+                        <p>
+                            researcher would say about the benefit of research which what is the necessaty of this research and which kind of problem will
+                            solve wtih this.the second part researcher would say about necessaty of this research which what position have among the people.
+                        </p>
+                    </section>
+                </div>
+                <div class="card">
+                    <section class="main-section" id="Primary-Secondary-Question">
+                        <header>Primary and Secondary Question</header>
+                        <code> Main question of research is most important point of the research.</code>
+
+                        <p>if our research has no question,it will confuse us.</p>
+                        <p>
+                            research has varity of question like whome, who,where, how many, how much,How ,why.
+                            we can use from above words to make our question.
+                        </p>
+                    </section>
+                </div>
+                <div class="card">
+                    <section class="main-section" id="Research-History">
+                        <header>Researsh History</header>
+                        <code>Research History is one point of the research.</code>
+
+                        <p>
+                        <p>in research history we review obut the history of our research whether our subject has before written or not.</p>
+                        research history infrom about three point. the first one is aovid from it's repeatation,
+                        and it can be a pattern for research and the last it's source  can be useful for us.
+                        </p>
+                    </section>
+                </div>
+            </main>
+
+
+        </div>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
